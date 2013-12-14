@@ -1,0 +1,44 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+$basic-font-family: "Dejavu Sans", "Bitstream Vera Sans", "Verdana", sans-serif;
+
+html {
+    background: #C0DCC0 !important;
+}
+
+body {
+    color: #005000 !important;
+}
+
+body > header {
+    background: #005500 !important;
+}
+
+body > header h1 a {
+    color: #C0DCC0 !important;
+}
+
+.heading {
+    font-family: $basic-font-family !important;
+}
+
+body > header h2 {
+    font-family: $basic-font-family !important;
+}
+
+body > div > div {
+    background-color: white !important;
+}
+
+#tag-cloud {
+    line-height: 2.2em;
+}
+
+article blockquote {
+    font-size: 1em !important;
+}
+
+figure.code table tr td.code {
+    background-color: #006600;
+    color: #C0DCC0;
+}
